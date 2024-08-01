@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.div_ajoute {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.form_voyage {
+    margin-top: 50px;
+    padding: 50px 0;
+}
+
+.form_voyage a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+.form_title {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+}
+
+/* ======================================= */
+select {
+    padding: 15px;
+    border: none;
+    border-radius: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+input {
+    padding: 13px;
+    border: 1px solid lightcyan;
+    border-radius: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+input:hover {
+    cursor: pointer;
+    background-color: rgb(154, 154, 154);
+    transition: 0.5s;
+}
+
+input:not(:hover) {
+    transition: 0.5s;
+}
+/* ======================================= */
+
+/* ============= div form ============== */
+
+.form_voyage div {
+    text-align: start;
+}
+
+.input_inscription {
+    padding: 9px;
+    border: 0.2px solid lightgrey;
+    margin-top: 10px;
+    width: 600px;
+    border-radius: 3px;
+}
+
+.input_inscription:focus {
+    border: 1px solid black;
+}
+
+.input_inscription::placeholder {
+    font-family: "Montserrat", sans-serif;
+    opacity: 1;
+}
+
+.form_voyage {
+    font-family: "Montserrat", sans-serif;
+}
+/* =========================================== */
+
+/* ============= signin input ============== */
+
+.modifier {
+    color: white;
+    border: 1px solid dodgerblue;
+    background: linear-gradient(to left, dodgerblue 50%, rgb(97, 255, 97) 50%)
+        right;
+    background-size: 200%;
+    padding: 9px;
+    transition: 2s ease-out;
+    width: 619px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.modifier:hover {
+    transition: 0.9s;
+    color: black;
+    cursor: pointer;
+    background-position: left;
+}
+
+.modifier:not(:hover) {
+    transition: 0.9s;
+}
+
+/* =================================== */
+
+.erreur {
+    color: red;
+}

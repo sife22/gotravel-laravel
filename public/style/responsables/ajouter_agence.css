@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/* * {
+    font-family: "Be Vietnam Pro", sans-serif;
+} */
+body {
+    background-color: blanc;
+    /* position: relative; */
+}
+
+.container {
+    /* margin: 0 15%; */
+    /* display: flex; */
+    align-items: center;
+    /* justify-content: space-between; */
+    height: 500px;
+    /* width: 100%; */
+    /* padding: 30px; */
+    text-align: center;
+}
+
+.formulaire h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container .title img {
+    width: 300px;
+    margin-left: -30px;
+}
+.container .title p {
+    font-size: 20px;
+    margin-top: -100px;
+    margin-left: -15px;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+/*responsive*/
+@media (max-width: 733px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container .title img {
+        margin: 0;
+        text-align: center;
+    }
+    .container .title p {
+        font-size: 17px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    background-color: #ffff;
+    padding: 50px;
+    /* margin-top: 150px; */
+    overflow: hidden;
+    width: 162vh;
+    height: 120%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+.formulaire input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+.formulaire input [type="email"]:focus,
+.formulaire input [type="password"]:focus {
+    outline: 1px solid #13407a;
+}
+.btn-submit {
+    background-color: #13407a;
+    color: #fff;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+.btn-submit:hover {
+    color: black;
+    background-color: rgb(45, 170, 26);
+    transition: 0.8s;
+    cursor: pointer;
+}
+.btn-submit:not(:hover) {
+    transition: 0.5s;
+}
+.mdp-oublie {
+    font-size: 13px;
+    color: #13407a;
+    text-decoration: none;
+    text-align: center;
+}
+.mdp-oublie:hover {
+    text-decoration: underline;
+}
+.formulaire hr {
+    margin: 20px 0;
+    background-color: #ccc;
+    border: 0;
+    width: 100%;
+    height: 1px;
+}
+.btn-inscription {
+    text-decoration: 0;
+    color: #fff;
+    background-color: #d48e23;
+    padding: 12px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+img {
+    margin-top: -50px;
+}
+.inscription {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255 255 255 /0.7);
+
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.inscription.active {
+    display: flex;
+}
+.inscription form {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+.inscription form i {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.inscription form h1 {
+    font-size: 30px;
+}
+.inscription form h4 {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.inscription form hr {
+    margin: 10px 0;
+    border: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+}
+.inscription input {
+    padding: 8px 5px;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: #f5f6f7;
+    border: 1px solid #ccc;
+}
+.input-nom-tele input {
+    width: 49%;
+    margin-bottom: 17px;
+}
+.num-mdp {
+    width: 100%;
+    margin-bottom: 17px;
+}
+.center-btn-submit {
+    text-align: center;
+}
+#btn-s-inscrire {
+    margin-top: 20px;
+    padding: 8px 70px;
+    background-color: #d48e23;
+    color: #fff;
+}
+
+.erreur {
+    color: red;
+    font-family: "Montserrat", sans-serif;
+}
+
+.succes {
+    color: rgb(0, 214, 36);
+    font-family: "Montserrat", sans-serif;
+}

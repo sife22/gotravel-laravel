@@ -1,0 +1,93 @@
+/* * {
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background-image: url("3DWhite.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+} */
+
+.container {
+    text-align: center;
+}
+.card-header {
+    border-bottom: 1px solid rgba(135, 135, 135, 0.637);
+    border-radius: 5px;
+    background: rgba(153, 153, 153, 0.1);
+    padding: 5px;
+    color: rgb(70, 69, 69);
+}
+.card-body {
+    margin: 0 15% 0 15%;
+}
+.card {
+    border: 1px solid rgba(135, 135, 135, 0.637);
+    border-radius: 5px;
+
+    margin: 0.5px;
+}
+table,
+tr,
+td,
+th {
+    border: 1px solid rgba(135, 135, 135, 0.637);
+    border-collapse: collapse;
+}
+table {
+    width: 100%;
+}
+tr {
+    background: white;
+}
+th,
+td {
+    height: 50px;
+    width: 100px;
+}
+th {
+    background: rgba(240, 219, 202, 0.925);
+    text-transform: uppercase;
+}
+.valide {
+    background: rgb(247, 165, 83);
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.valide:hover {
+    opacity: 0.8;
+}
+.row {
+    text-align: left;
+    margin-left: 10%;
+}
+#imprimer {
+    background: rgb(8, 56, 112);
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+#imprimer:hover {
+    opacity: 0.8;
+}
+@media screen and (max-width: 643px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+        float: left;
+    }
+    .container {
+        width: 100%;
+    }
+}

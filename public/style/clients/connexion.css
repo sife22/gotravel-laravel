@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.div_connexion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+}
+
+.form_connexion {
+    padding: 130px 0;
+}
+
+/* ============= div form ============== */
+
+.form_connexion div {
+    text-align: start;
+}
+
+.form_connexion div input {
+    padding: 9px;
+    border: 0.2px solid lightgrey;
+    margin-top: 10px;
+    width: 300px;
+    border-radius: 3px;
+}
+
+.form_connexion div input:focus {
+    border: 1px solid black;
+}
+
+.form_connexion div input::placeholder {
+    font-family: "Montserrat", sans-serif;
+    opacity: 1;
+}
+
+.form_title {
+    font-family: "Montserrat", sans-serif;
+}
+
+.inscription {
+    text-decoration: none;
+    color: black;
+}
+/* =========================================== */
+
+/* ============= login input ============== */
+
+.login {
+    background: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+}
+
+.login:hover {
+    transition: 0.9s;
+    background-color: rgb(14, 183, 56);
+    color: black;
+    cursor: pointer;
+}
+
+.login:not(:hover) {
+    transition: 0.9s;
+}
+
+/* =================================== */
